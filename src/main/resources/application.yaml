@@ -1,3 +1,14 @@
+app:
+  twitter:
+    delay: 20000
+    user: hardmob_promo
+
 camel:
+  component:
+    twitter-timeline:
+      access-token: [YOUR ACCESS TOKEN]
+      access-token-secret: [YOUR ACCESS TOKEN SECRET]
+      consumer-key: [YOUR CONSUMER KEY]
+      consumer-secret: [YOUR CONSUMER SECRET]
   springboot:
     main-run-controller: true

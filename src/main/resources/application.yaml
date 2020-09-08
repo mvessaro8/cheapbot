@@ -5,6 +5,8 @@ app:
 
 camel:
   component:
+    telegram:
+      authorization-token: [YOUR AUTHORIZATION TOKEN]
     twitter-timeline:
       access-token: [YOUR ACCESS TOKEN]
       access-token-secret: [YOUR ACCESS TOKEN SECRET]
